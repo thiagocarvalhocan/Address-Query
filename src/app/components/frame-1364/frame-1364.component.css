@@ -1,24 +1,23 @@
 h2 {
   text-align: center;
   font-weight: 700;
-  font-size: 25px;
+  white-space: nowrap;
   margin: 0;
-}
-
-img {
-  width: 115px;
+  margin-top: 5%;
 }
 
 button {
-  width: 396px;
   background-color: #007bff;
   color: #dae1f7;
   border: none;
   border-radius: 5px;
-  padding: 12px 30px;
   text-align: center;
   text-decoration: none;
   font-size: 15px;
+}
+
+p {
+  white-space: nowrap;
 }
 
 .frame-content {
@@ -38,17 +37,14 @@ button {
 .panel {
   background-color: white;
   border-radius: 5px;
-  width: 486px;
-  height: 324px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10%;
 }
 
 .panel-body {
   color: #5a5c69;
-  width: 396px;
-  height: 244px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -62,24 +58,68 @@ button {
 }
 
 .loginform {
-  padding-bottom: 10px;
-  font-size: 25px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width: 300px) {
+  h2 {
+    font-size: 17px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .loginform {
+    font-size: 19px;
+  }
+
+  button {
+    padding: 12px 105px;
+  }
+
+  .entity {
+    font-size: 13px;
+  }
 }
 
 @media screen and (min-width: 380px) {
-  .panel {
-    width: 400px;
-    height: 300px;
+  h2 {
+    font-size: 21px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .loginform {
+    font-size: 22px;
+  }
+
+  button {
+    padding: 12px 122px;
   }
 }
 
 @media screen and (min-width: 700px) {
   .panel {
-    width: 486px;
+    /*     width: 420px;
+ */
   }
-}
 
-@media screen and (min-width: 992px) {
-  .panel {
+  h2 {
+    font-size: 25px;
+  }
+
+  img {
+    width: 115px;
+  }
+
+  .loginform {
+    font-size: 25px;
+  }
+
+  button {
+    padding: 12px 145px;
   }
 }

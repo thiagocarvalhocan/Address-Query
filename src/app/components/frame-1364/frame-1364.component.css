@@ -102,11 +102,6 @@ p {
 }
 
 @media screen and (min-width: 700px) {
-  .panel {
-    /*     width: 420px;
- */
-  }
-
   h2 {
     font-size: 25px;
   }
